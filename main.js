@@ -4,7 +4,7 @@ var ctx = canvas.getContext("2d"); //the render context of the gameCanvas
 function drawCard(posX, posY){
   ctx.beginPath();
   ctx.rect(posX, posY, 40, 50);
-  ctx.fillStyle = "#FF0000";
+  ctx.fillStyle = "#F0654B";
   ctx.fill();
   ctx.closePath();
 }
