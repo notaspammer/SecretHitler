@@ -7,13 +7,21 @@
 <title>Secret Hitler Online</title>
 </head>
 <body>
-<script src="main.js"></script>
+
+
+<canvas id="gC" width="1280" height="720">
+</canvas>
 
 <p id="Debug">Hello World</p>
 
-<button type="button" onclick="playTurn()">
+<button id="turnButton" type="button" onclick="playTurn()">
   Play Turn
 </button>
 
+<button id="debugButton" type="button" onclick="drawCard(20, 20)">
+  Draw Card
+</button>
+
+<script src="main.js"></script>
 </body>
 </html>
